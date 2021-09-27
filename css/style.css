@@ -1,0 +1,69 @@
+@import 'utilities.css';
+
+body{
+    
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+
+}
+
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased
+}
+header{
+    background: var(--dark);
+}
+.container{
+    max-width:1152px;
+    padding:0 15px;
+    
+}
+
+header nav .left  a{
+    color:var(--pure);
+    text-decoration: none;
+    text-transform:uppercase;
+    transition: all .3s ease;
+    -webkit-transition: all .3s;
+}
+header nav .left  a:hover{
+    color:var(--pure);
+}
+.abjt .right {
+    color:var(--primary);
+}
+
+.abjt .right h6 {
+    font-size: 1.6rem;
+}
+
+.abjt .right h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.abjt .right p {
+    font-size: 1rem;
+}
+
+header nav .home{
+    padding:2rem 0 ;
+}
+
+header nav .branding{
+    margin-right: 3rem;
+}
+.abjt .right li{
+    font-size: 1rem;
+    margin-bottom: 9rem;
+}
